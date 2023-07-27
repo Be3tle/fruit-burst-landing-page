@@ -89,14 +89,17 @@
                             <li><a>About Us</a></li>
                             <li><a>Shop</a></li>
                             <li><a>All Fruits</a></li>
-                            <li class="flex md:hidden">
-                                <a class="relative">
-                                    <input class="border-2 rounded-full text-black mx-auto" type="text"
-                                        placeholder="Search Here">
-                                    <div class=" absolute top-2 right-7 cursor-pointer	">
-                                        <i class="fa-solid fa-magnifying-glass"></i>
-                                    </div>
-                                </a>
+                            <li class="flex lg:hidden">
+                                <div class="h-8 w-52 bg-white rounded-full flex justify-between items-center">
+                                    <p class="text-sm font-normal py-4 text-gray-500">Search here</p>
+                                    <button class="btn btn-ghost btn-circle ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                        </svg>
+                                    </button>
+                                </div>
                             </li>
                         </ul>
                     </form>
@@ -106,7 +109,7 @@
         </nav>
 
         <!-- slider -->
-        <div class="carousel w-full min-h-screen -mt-16">
+        <div class="carousel w-full min-h-screen -mt-16 p-5 lg:p-0  ">
 
             <!-- slide1 -->
             <div id="slide1" class="carousel-item relative w-full">
@@ -127,7 +130,7 @@
                 </div>
 
                 <section
-                    class="flex justify-around items-center bg-white mx-auto h-32 w-4/5 rounded-lg absolute transform translate-y-36 drop-shadow-lg top-1/2 left-24 text-center">
+                    class="hidden lg:flex justify-around items-center bg-white mx-auto h-32 w-4/5 rounded-lg absolute transform translate-y-36 drop-shadow-lg top-1/2 left-24 text-center">
                     <div>
                         <img src="./images/fruit1.png" alt="">
                         <p>Blackberry</p>
@@ -170,7 +173,7 @@
                 </div>
 
                 <section
-                    class="flex justify-around items-center bg-white mx-auto h-32 w-4/5 rounded-lg absolute transform translate-y-36 drop-shadow-lg top-1/2 left-24 text-center">
+                    class="hidden lg:flex justify-around items-center bg-white mx-auto h-32 w-4/5 rounded-lg absolute transform translate-y-36 drop-shadow-lg top-1/2 left-24 text-center">
                     <div>
                         <img src="./images/fruit1.png" alt="">
                         <p>Blackberry</p>
@@ -211,7 +214,7 @@
                     <a href="#slide4" class="btn btn-circle">❯</a>
                 </div>
                 <section
-                    class="flex justify-around items-center bg-white mx-auto h-32 w-4/5 rounded-lg absolute transform translate-y-36 drop-shadow-lg top-1/2 left-24 text-center">
+                    class="hidden lg:flex justify-around items-center bg-white mx-auto h-32 w-4/5 rounded-lg absolute transform translate-y-36 drop-shadow-lg top-1/2 left-24 text-center">
                     <div>
                         <img src="./images/fruit1.png" alt="">
                         <p>Blackberry</p>
@@ -253,7 +256,7 @@
                     <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
                 <section
-                    class="flex justify-around items-center bg-white mx-auto h-32 w-4/5 rounded-lg absolute transform translate-y-36 drop-shadow-lg top-1/2 left-24 text-center">
+                    class="hidden lg:flex justify-around items-center bg-white mx-auto h-32 w-4/5 rounded-lg absolute transform translate-y-36 drop-shadow-lg top-1/2 left-24 text-center">
                     <div>
                         <img src="./images/fruit1.png" alt="">
                         <p>Blackberry</p>
@@ -288,7 +291,7 @@
 
     <main>
         <!-- deal section -->
-        <section class="container mx-auto my-14 grid grid-cols-1 md:grid-cols-2 gap-96">
+        <section class="container mx-auto my-14 grid grid-cols-1 md:grid-cols-2 gap-96 p-5 lg:p-0">
             <div class="w-96 ">
                 <h1 class="text-5xl font-bold mb-6">Deal of the day</h1>
                 <p class="font-medium text-base">Contrary to popular belief, is not simply random text. It has roots in
@@ -358,7 +361,7 @@
                                 <figure><img class="w-36 pt-8" src="./images/fruit6.png" alt="" /></figure>
                                 <div class="card-body">
 
-                                    <div class="text-center space-y-4 my-4 w-96">
+                                    <div class="text-center space-y-4 my-4 w-52 lg:w-96">
                                         <h4 class="text-xl font-bold">Apple</h4>
                                         <p class="text-base font-medium text-gray-500">Professional employees are
                                             there for you to pick the most amazing and fresh fruits.</p>
@@ -414,7 +417,7 @@
                                 <figure><img class="w-36 pt-8" src="./images/fruit7.png" alt="" /></figure>
                                 <div class="card-body">
 
-                                    <div class="text-center space-y-4 my-4 w-96">
+                                    <div class="text-center space-y-4 my-4 w-52 lg:w-96">
                                         <h4 class="text-xl font-bold">Orange</h4>
                                         <p class="text-base font-medium text-gray-500">Professional employees are
                                             there for you to pick the most amazing and fresh fruits.</p>
@@ -469,7 +472,7 @@
                                 <figure><img class="w-36 pt-8" src="./images/fruit8.png" alt="" /></figure>
                                 <div class="card-body">
 
-                                    <div class="text-center space-y-4 my-4 w-96">
+                                    <div class="text-center space-y-4 my-4 w-52 lg:w-96">
                                         <h4 class="text-xl font-bold">Red Dragon</h4>
                                         <p class="text-base font-medium text-gray-500">Professional employees are
                                             there for you to pick the most amazing and fresh fruits.</p>
@@ -524,7 +527,7 @@
                                 <figure><img class="w-36 pt-8" src="./images/fruit9.png" alt="" /></figure>
                                 <div class="card-body">
 
-                                    <div class="text-center space-y-4 my-4 w-96">
+                                    <div class="text-center space-y-4 my-4 w-52 lg:w-96">
                                         <h4 class="text-xl font-bold">Banana</h4>
                                         <p class="text-base font-medium text-gray-500">Professional employees are
                                             there for you to pick the most amazing and fresh fruits.</p>
@@ -558,9 +561,8 @@
         </section>
 
         <!-- team section -->
-        <section class="container mx-auto my-12">
-            <div class="hero">
-                <img class="w-full rounded-lg" src="./images/team.png" alt="">
+        <section class="container mx-auto my-12 p-5 lg:p-0">
+            <div class="hero min-h-screen" style="border-radius: 8px; background-image: url('./images/team.png');">
                 <div class="hero-overlay rounded-xl bg-opacity-70"></div>
                 <div class="hero-content text-center text-neutral-content text-white grid grid-cols-1">
                     <div class="max-w-md mx-auto">
@@ -568,7 +570,7 @@
                         <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots
                             in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
                     </div>
-                    <div class="grid grid-cols-4 gap-24">
+                    <div class="grid md:grid-cols-1 lg:grid-cols-4 gap-24">
                         <div>
                             <img class="mb-4 mx-auto" src="./images/member1.png" alt="">
                             <h1 class="text-lg font-semibold">Sebastian Stan</h1>
@@ -733,7 +735,7 @@
                     <a class="btn btn-ghost normal-case text-xl lg:text-3xl text-white">Fruit Burst</a>
                 </div>
 
-                <ul class="menu menu-horizontal py-4 px-1 text-white">
+                <ul class="menu menu-horizontal py-4 px-1 text-white grid grid-cols-3 lg:grid-cols-6">
                     <li><a>Home</a></li>
                     <li><a>About Us</a></li>
                     <li><a>Shop</a></li>
